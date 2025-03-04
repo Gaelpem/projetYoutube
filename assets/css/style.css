@@ -1,0 +1,40 @@
+*{
+    margin:0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.separation{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+article{
+    padding-top:1.3rem ;
+    margin-bottom: 3rem;
+    border-top: 1px solid black;
+    cursor: pointer;
+}
+
+article p{
+ margin-top: 2rem;
+    
+}
+
+#question1.open, #question2.open{
+    height: 600px; 
+    transition: height 0.8s ease;
+}
+
+
+#fleche1,#fleche2{
+    position: absolute;
+    right: 0;
+    font-size: 1.6rem;
+    top: 2rem;
+    transition: transform 0.3s ease;
+    color: black; 
+   }
+   
